@@ -3,7 +3,7 @@ pipeline {
  // where pipeline job will run
  agent {
  // force pipeline job to running on windows_agent
-   label "Windows_Agent"
+   label "windows_slave"
  }
  // start of stages : build, test, deploy ...
  stages {
